@@ -17,6 +17,8 @@ g++ main.cpp -o oj-cli #Linux
 g++ main.cpp -o oj-cli.exe #Windows
 ```
 
+在 `Windows 10` 专业版 与 `WSL Ubuntu 4.4.0-17763-Microsoft` 下测试通过。
+
 ### 目前支持的 OJ
 
 UOJ : 登录，交题        
@@ -28,7 +30,7 @@ BZOJ : 因为没有权限号，暂时咕掉
 ### 使用时需要准备啥
 
 - `curl` with `OpenSSL` support
-  - 如果您是 `Windows` 系统的话，我给您准备好了一个即开即用的编译好了的`curl`，您如果不放心也可以自己编译一个。
+  - 如果您是 `Windows` 系统的话，我给您在[**Release**](https://github.com/abc1763613206/OJ-CLI/releases)中准备好了一个即开即用的编译好了的`curl`，您如果不放心也可以自己编译一个。
 - `UOJ`系 OJ 的密钥目前需要**自行拼接**，详见[Wiki](https://git.io/fjZdT)
 
 
@@ -44,6 +46,6 @@ BZOJ : 因为没有权限号，暂时咕掉
 
 ### 最后
 
-本项目是本人现学先写，难免会有些意想不到的问题，敬请各位一起来改进。            
+本项目是本人现学现写，难免会有些意想不到的问题，敬请各位一起来改进。            
 
 本项目的写成参考了网络上的一些项目，具体信息已经在注释中注明，在此一并感谢。
