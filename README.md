@@ -10,6 +10,12 @@ oj-cli [oj] [problemid] [file]
 `problemid` : 问题的ID，不带任何符号，请确定是您在`URL`中看到的ID         
 `file` : 代码文件，为了供您实验，我已经在项目根目录放了一份[A + B Problem](./apb.cpp) 
 
+代码可以自行编译，但您需确保自己的`curl`不出差错。    
+```bash
+g++ main.cpp -o oj-cli #Linux
+
+g++ main.cpp -o oj-cli.exe #Windows
+```
 
 ### 目前支持的 OJ
 
