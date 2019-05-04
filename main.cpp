@@ -102,7 +102,7 @@ CURL *hnd;
 struct curl_slist *slist1;
 */
 
-std::string curlHeader="  --progress-bar -H \'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36 OJ-CLI/1.0\' ";
+std::string curlHeader=" --insecure  --progress-bar -H \'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36 OJ-CLI/1.0\' ";
 
 void TransToLower(std::string &str){
 	for(int i=0;i<str.length();i++){
@@ -117,7 +117,7 @@ void TransToLower(std::string &str){
 
 
 namespace Request{
-	void flushHeader(){curlHeader="  --progress-bar -H \'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36 OJ-CLI/1.0\' ";}
+	void flushHeader(){curlHeader=" --insecure  --progress-bar -H \'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36 OJ-CLI/1.0\' ";}
 	/*
 	using std::stringstream;using std::endl;
 	void AddHeader(std::string str){
