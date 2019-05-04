@@ -31,7 +31,9 @@ BZOJ : 因为没有权限号，暂时咕掉
 
 - `curl` with `OpenSSL` support
   - 如果您是 `Windows` 系统的话，我给您在[**Release**](https://github.com/abc1763613206/OJ-CLI/releases)中准备好了一个即开即用的编译好了的`curl`，您如果不放心也可以自己编译一个。
+  - 如果您是 `Linux` 却仍不成功，请尝试使用您系统对应的包管理器安装 `libcurl*-openssl*` ，如Ubuntu为 `sudo apt install libcurl*-openssl* -y`
 - `UOJ`系 OJ 的密钥目前需要**自行拼接**，详见[Wiki](https://git.io/fjZdT)
+
 
 
 ### 未来计划
